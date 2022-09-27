@@ -2,6 +2,7 @@
 
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -12,64 +13,72 @@ body{
 }
 
 header{
-    line-height:0 ;
-   
+ display: flex;
+ width: 100%;
+ padding: 20px;
+ background-color: rgba(0, 0, 0,0.459);
+ position: fixed;
+
 }
 
-.portada{
-        width: 100%;
-        height:500px;
-        box-shadow: 0px 0px 5px 1px black; 
-        display: inline-block;
-        
-    }
+
 
 .logo img{
-        display: inline-block;
-      
-        height: 50px;
+        display: flex;
+        height: 30px;
       }
 
-
- .menu{
-   
-        background:black;
-        width: 100%;  
-        float:left;
-        height: 70px;
-        margin-bottom: 50px;
+nav{
+    width: 100%;
 }
+ .menu{ 
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        column-gap: 30px;
+
+       
+}
+
 
 nav ul li {
     display: inline-block;
     list-style: none;
-    float: left;
-    padding-left: 150px;
     text-decoration: none;
-    text-align: center;
+   
 }
 
-
-
-
-
-
 a{
+   
     text-decoration: none; 
     color: rgb(146, 184, 221);  
     font-size: larger;  
-    
-
 }
     
 a:hover{background-color: #FEF5FB;
-   
-       
+}
+
+.banner{
+    background-image: url("./pages/img/flores.jpg");
+    height: 50vh;
+    background-position: bottom;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(3,1fr);
+    justify-items: center;
+    align-items: center;
+
+}
+
+h1{
+    grid-column: 5/ 6;
+    grid-row: 4/4;
+    color: white;
+    font-size: 20px;
 
 }
 
 
-  
       /*INDEX*/
 
 .primero{
@@ -184,13 +193,6 @@ div.Producto img{
 
 
 /*GALERIA DE IMAGENES*/
-
-h1{
-    margin-bottom: 25px;
-    color: white;
-    text-shadow: 1px 2px 2px black, 0 0 25px blue ;
-    text-align: center;
-}
 
 div.galeria{
     margin: 10px 20px;
