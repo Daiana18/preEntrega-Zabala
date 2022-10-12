@@ -111,6 +111,7 @@ h1{
     width: 40%;
     align-items: center;
     box-shadow: 0px 0px 5px 1px black;   
+ 
 
 }
 
@@ -155,10 +156,7 @@ footer{
    position: absolute;
     bottom: 0;
     width: 100%;
-    background:black;
-
- 
-   
+    background:black; 
 }
 
 footer ul li {
@@ -182,29 +180,36 @@ footer h2{
 
 /*NOSOTROS*/
 
-.texto{
-    margin-left: 80px;
-    margin-right: 80px;
+.texto p{
+ 
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     line-height: 1.7;
     text-indent:30px;
     margin-top: 10px;
-    text-align: center;
     font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif
+    font-family:Georgia, 'Times New Roman', Times, serif;
+   
 }
 
 .video{
-   margin-left: 600px;
-   margin-top: 20px;
+
+   display: flex;
+   flex-direction: row;
+   margin: 0;
+   justify-content: center;
    
 }
 
 
 article .mapa{
 
-    margin-left: 550px;
-    margin-top: 20px;
-    
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    justify-content: center;
     
 }
 
@@ -218,6 +223,7 @@ div.Producto{
     box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgba(0,0,0,0.19);
     float: left;
     width: 200px;
+
 }
 
 div.Producto img{
@@ -235,11 +241,13 @@ div.galeria{
     box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgba(0,0,0,0.19);
     float: left;
     width: 200px;
+    
 }
 
 div.galeria img{
     width: 100%;
     height: auto;
+    
 }
 
 div.galeria:hover{
@@ -325,6 +333,14 @@ div.pie{
 
 
 
+@media  screen and (min-width: 400px) and (max-width: 800px){
+body {
+    position:relative;
+    padding-bottom: 2100px;
+    min-height: 200vh;
+   
+}
+}
 
 
  
@@ -358,8 +374,8 @@ div.pie{
     }
 
 
-    @media  screen and (max-width:750px){
-        .primero{
+    @media  screen and (min-width: 400px) and (max-width: 800px){
+        .primero img{
             width: 100%;
             box-shadow: none;
             justify-content: center;
@@ -369,8 +385,8 @@ div.pie{
 
 
 
-    @media  screen and (max-width:750px){
-        .segundo{
+    @media  screen and (min-width: 400px) and (max-width: 800px){
+        .segundo img{
            width: 100%;
            box-shadow: none;
            justify-content: center;
@@ -406,10 +422,14 @@ div.pie{
 
     
 
-     
-    @media  screen and (max-width:750px){
-        .formulario__btn{
-          float: right;
+    @media  screen and (min-width: 400px) and (max-width: 800px){
+      main .formulario__btn{
+      
+    display: flex;  
+    flex-direction: row;
+    justify-content: center;
+    width: 15%;
+    margin: 30px;
           
     
         }
@@ -418,12 +438,14 @@ div.pie{
   
 
 
-    @media  screen and (max-width:750px){
-       .texto{
+    @media  screen and (min-width: 400px) and (max-width: 800px){
+  .texto p{
+            display: flex;
+            flex-direction: row;
             justify-content: center;
             font-size: 15px;
             font-family:Georgia, 'Times New Roman', Times, serif;
-            width:50%;
+            width:100%;
          
     
         }
@@ -431,40 +453,37 @@ div.pie{
 
 
     
-    @media  screen and (max-width:750px){
-    .video{
-        display: inline-block;
-       width: 50%;
-        float: right;
-        justify-content: right;
-        align-items: right;
-        justify-items: right;
-         
-    
-        }
-    }
-
-    @media  screen and (max-width:750px){
-        .mapa{
-            width:50%;
-            float: right;
-    
-        }
-    }
-
-    @media  screen and (max-width:750px){
-        footer{
-          position:fixed;
-    
-        }
-    }
-
-    @media  screen and (max-width:750px){
-  body{
+    @media  screen and (min-width: 400px) and (max-width: 800px){
+   article .video{
         display: flex;
-        width: 100%;
-        background-color: rgba(0, 0, 0,0.459);
-            
-       
-       }
+        flex-direction: row;
+        margin: 0;
+        justify-content: center;
+      
+   
+    
+    
+        }
     }
+
+    @media  screen and (min-width: 400px) and (max-width: 800px){
+       article .mapa{
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        justify-content: center;
+        width: 100%;
+    
+        }
+    }
+
+    @media  screen and (min-width: 400px) and (max-width: 800px){
+        footer{
+             
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+        }
+    }
+
+    
