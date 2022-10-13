@@ -64,9 +64,10 @@ h1 {
   justify-content: center;
   line-height: 1.7;
   text-indent: 30px;
-  margin-top: 20px;
+  margin-top: 50px;
+  margin-bottom: 40px;
   font-size: 18px;
-  /* font-family: $fuente-secundaria ;*/ }
+  font-family: Georgia, "Times New Roman", Times, serif; }
 
 .video {
   display: flex;
@@ -80,18 +81,8 @@ article .mapa {
   margin: 0;
   justify-content: center; }
 
-div.Producto {
-  margin: 10px 20px;
-  box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  float: left;
-  width: 200px; }
-
-div.Producto img {
-  width: 100%;
-  height: auto; }
-
 div.galeria {
-  margin: 10px 20px;
+  margin: 50px 20px;
   box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   float: left;
   width: 200px; }
@@ -108,6 +99,16 @@ div.pie {
   text-align: center;
   text-shadow: 2px 2px 5px purple;
   padding: 10px; }
+
+div.Producto {
+  margin: 50px 20px;
+  box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  float: left;
+  width: 200px; }
+
+div.Producto img {
+  width: 100%;
+  height: auto; }
 
 .formulario {
   display: grid;
@@ -169,21 +170,28 @@ footer {
 
 footer ul li {
   margin-top: 20px;
-  color: #92b8dd;
+  color: #e8eef4;
   text-decoration: none;
   text-align: center;
-  font-size: 16px;
+  font-size: 18px;
   list-style: none; }
 
-footer h2 {
-  text-align: center;
-  color: #92b8dd;
-  font-size: 20px; }
+.copyright {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  margin: 0; }
+
+.redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end; }
 
 @media screen and (min-width: 100px) and (max-width: 800px) {
   body {
     position: relative;
-    padding-bottom: 2100px;
+    padding-bottom: 2650px;
     min-height: 200vh; } }
 
 @media screen and (max-width: 750px) {
@@ -262,4 +270,8 @@ footer h2 {
   footer {
     position: absolute;
     bottom: 0;
-    width: 100%; } }
+    width: 100%; }
+  .copyright {
+    justify-content: center; }
+  .redes {
+    justify-content: space-between; } }

@@ -1,13 +1,26 @@
-div.Producto{
-   
-    margin: 10px 20px;
+
+div.galeria{
+    
+    margin: 50px 20px ;
     box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgba(0,0,0,0.19);
     float: left;
     width: 200px;
-
+    
 }
 
-div.Producto img{
+div.galeria img{
     width: 100%;
     height: auto;
+    
+}
+
+div.galeria:hover{
+    border: 1 px solid lightcoral;
+    transform: rotate(-3deg);
+}
+
+div.pie{
+    text-align: center;
+    text-shadow: 2px 2px 5px purple;
+    padding: 10px;
 }

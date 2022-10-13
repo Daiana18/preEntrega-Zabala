@@ -7,16 +7,28 @@ footer{
 }
  footer ul li {
      margin-top: 20px;
-     color: rgb(146, 184, 221);
+     color: rgb(232, 238, 244);
      text-decoration: none;
      text-align: center;
-     font-size: 16px;
+     font-size: 18px;
      list-style: none;
- }
  
- footer h2{
-   
-     text-align: center;
-     color:rgb(146, 184, 221);
-     font-size: 20px;
+ 
+
  }
+ .copyright {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin: 0;
+
+}
+
+.redes{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+
+}
+
