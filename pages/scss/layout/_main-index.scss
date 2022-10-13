@@ -1,0 +1,39 @@
+.fase1{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+   }
+
+.primero{
+    display:flex;
+    flex-direction: row;
+    width: 40%;
+    align-items: center;
+    box-shadow: 0px 0px 5px 1px black;   
+ 
+
+}
+
+.fase2{
+    @extend .fase1;
+   }
+
+.segundo{
+   @extend .primero;
+}
+
+.text{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 18px;
+    font-family: $fuente-principal;
+    line-height: 1.6;
+    text-indent:30px;
+    width:50% ;
+    
+    
+}

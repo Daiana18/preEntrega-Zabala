@@ -1,0 +1,30 @@
+header{
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0,0.459);
+    position: fixed;
+   
+   .logo img{
+           display: flex;
+           height: 60px;
+   
+         }}
+
+   .banner{
+       background-image: url("../img/flores.jpg");
+       height: 50vh;
+       background-position: bottom;
+       display: grid;
+       grid-template-columns: repeat(6,1fr);
+       grid-template-rows: repeat(3,1fr);
+       justify-items: center;
+       align-items: center;
+   }
+
+   h1{
+       grid-column: 5/ 6;
+       grid-row: 4/4;
+       color: white;
+       font-size: 20px;
+   }

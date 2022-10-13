@@ -1,0 +1,28 @@
+.texto p{
+ 
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    line-height: 1.7;
+    text-indent:30px;
+    margin-top: 20px;
+    font-size: 18px;
+   /* font-family: $fuente-secundaria ;*/
+   
+}
+
+
+.video {
+    @include propiedades-flex(row,center,center)
+}
+
+
+article .mapa{
+
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    justify-content: center;
+    
+}
