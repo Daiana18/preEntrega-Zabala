@@ -69,12 +69,6 @@ h1 {
   font-size: 18px;
   font-family: Georgia, "Times New Roman", Times, serif; }
 
-.video {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center; }
-
 article .mapa {
   display: flex;
   flex-direction: row;
@@ -191,7 +185,6 @@ footer ul li {
 @media screen and (min-width: 315px) and (max-width: 1000px) {
   body {
     position: relative;
-    padding-bottom: 500px;
     min-height: 200vh;
     display: inline-block;
     overflow-x: hidden; } }
@@ -200,29 +193,29 @@ footer ul li {
   .logo {
     display: none; } }
 
-@media screen and (min-width: 200px) and (max-width: 800px) {
+@media screen and (min-width: 315px) and (max-width: 1000px) {
   .fase1, .fase2 {
     display: flex;
     flex-direction: column; } }
 
-@media screen and (min-width: 200px) and (max-width: 800px) {
+@media screen and (min-width: 315px) and (max-width: 1000px) {
   .fase2 {
     display: flex;
     flex-direction: column; } }
 
-@media screen and (min-width: 200px) and (max-width: 800px) {
+@media screen and (min-width: 315px) and (max-width: 1000px) {
   .primero img, .segundo img {
     width: 100%;
     box-shadow: none;
     justify-content: center; } }
 
-@media screen and (min-width: 200px) and (max-width: 800px) {
+@media screen and (min-width: 315px) and (max-width: 1000px) {
   .segundo img {
     width: 100%;
     box-shadow: none;
     justify-content: center; } }
 
-@media screen and (min-width: 200px) and (max-width: 800px) {
+@media screen and (min-width: 315px) and (max-width: 1000px) {
   .text {
     justify-content: center;
     font-size: 15px;
@@ -231,12 +224,12 @@ footer ul li {
     border-radius: 20px;
     margin-top: 10px; } }
 
-@media screen and (min-width: 200px) and (max-width: 800px) {
+@media screen and (min-width: 315px) and (max-width: 1000px) {
   .formulario {
     display: block;
     justify-content: center; } }
 
-@media screen and (min-width: 200px) and (max-width: 800px) {
+@media screen and (min-width: 315px) and (max-width: 1000px) {
   main .formulario__btn {
     display: flex;
     flex-direction: row;
@@ -250,17 +243,9 @@ footer ul li {
     flex-direction: row;
     justify-content: center;
     font-size: 15px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    width: 100%; } }
+    font-family: Georgia, 'Times New Roman', Times, serif; } }
 
-@media screen and (min-width: 200px) and (max-width: 800px) {
-  article .video {
-    display: flex;
-    flex-direction: row;
-    margin: 0;
-    justify-content: center; } }
-
-@media screen and (min-width: 200px) and (max-width: 800px) {
+@media screen and (min-width: 315px) and (max-width: 1000px) {
   article .mapa {
     display: flex;
     flex-direction: row;
@@ -268,7 +253,7 @@ footer ul li {
     justify-content: center;
     width: 100%; } }
 
-@media screen and (min-width: 200px) and (max-width: 800px) {
+@media screen and (min-width: 315px) and (max-width: 1000px) {
   footer {
     position: absolute;
     bottom: 0;

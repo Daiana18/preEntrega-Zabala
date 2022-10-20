@@ -12,13 +12,6 @@
     font-family: $fuente-secundaria ;
    
 }
-
-
-.video {
-    @include propiedades-flex(row,center,center)
-}
-
-
 article .mapa{
 
     display: flex;

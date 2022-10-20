@@ -3,10 +3,11 @@
     body {
         
         position:relative;
-        padding-bottom: 800px;
+        
         min-height: 200vh;
         display:inline-block;
-        overflow-x: hidden
+        overflow-x: hidden;
+       
             }
        
     }
@@ -24,7 +25,7 @@
     
     
     
-    @media  screen and (min-width: 200px) and (max-width: 800px){
+    @media  screen and (min-width: 315px) and (max-width: 1000px){
         .fase1{
             display: flex;
             flex-direction: column;
@@ -34,7 +35,7 @@
         }
     }
     
-    @media  screen and (min-width: 200px) and (max-width: 800px){
+    @media  screen and (min-width: 315px) and (max-width: 1000px){
             .fase2{
                 display: flex;
                 flex-direction: column;
@@ -44,7 +45,7 @@
         }
     
     
-        @media  screen and (min-width: 200px) and (max-width: 800px){
+        @media  screen and (min-width: 315px) and (max-width: 1000px){
             .primero img{
                 width: 100%;
                 box-shadow: none;
@@ -55,7 +56,7 @@
     
     
     
-        @media  screen and (min-width: 200px) and (max-width: 800px){
+        @media  screen and (min-width: 315px) and (max-width: 1000px){
             .segundo img{
                width: 100%;
                box-shadow: none;
@@ -68,7 +69,7 @@
     
     
     
-        @media  screen and (min-width: 200px) and (max-width: 800px){
+        @media  screen and (min-width: 315px) and (max-width: 1000px){
             .text{
                 justify-content: center;
                 font-size: 15px;
@@ -81,7 +82,7 @@
         }
     
       
-        @media  screen and (min-width: 200px) and (max-width: 800px){
+        @media  screen and (min-width: 315px) and (max-width: 1000px){
             .formulario{
                 display: block;
                justify-content: center;
@@ -92,7 +93,7 @@
     
         
     
-        @media  screen and (min-width: 200px) and (max-width: 800px){
+        @media  screen and (min-width: 315px) and (max-width: 1000px){
           main .formulario__btn{
           
         display: flex;  
@@ -117,14 +118,17 @@
                 justify-content: center;
                 font-size: 15px;
                 font-family:Georgia, 'Times New Roman', Times, serif;
-                width:100%;
+        
              
         
             }
         }
-
     
-        @media  screen and (min-width: 200px) and (max-width: 800px){
+    
+        
+    
+    
+        @media  screen and (min-width: 315px) and (max-width: 1000px){
            article .mapa{
             display: flex;
             flex-direction: row;
@@ -135,7 +139,7 @@
             }
         }
     
-        @media  screen and (min-width: 200px) and (max-width: 800px){
+        @media  screen and (min-width: 315px) and (max-width: 1000px){
             footer{
                  
        position: absolute;
