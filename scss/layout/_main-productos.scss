@@ -3,7 +3,7 @@ div.galeria{
     
     margin: 50px 20px ;
     box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgba(0,0,0,0.19);
-    float: left;
+    display: inline-block;
     width: 200px;
     
 }
@@ -23,4 +23,12 @@ div.pie{
     text-align: center;
     text-shadow: 2px 2px 5px purple;
     padding: 10px;
+}
+.titulo{
+   text-align:center;
+   color: green;
+   font-size: 20px;
+   margin-top: 10px;
+   font-weight: 600;
+
 }

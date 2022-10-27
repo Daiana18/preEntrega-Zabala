@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap:20px;
-    margin-top: 50px;;
+    margin-top: 80px;
 }
 
 .formulario__label{
@@ -29,7 +29,7 @@
 }
 
 .formulario__input:focus{
-    border:3px solid #0075ff;
+    border:3px solid rgb(27, 169, 150);
     outline:none;
     box-shadow: 3px 0 px 30px rgba(163, 163, 163, 0.4);
 

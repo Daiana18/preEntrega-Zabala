@@ -1,13 +1,15 @@
 .texto p{
  
 
-    display: flex;
-    flex-direction: row;
+    display: inline-block;
     justify-content: center;
+    align-items: center;
     line-height: 1.7;
     text-indent:30px;
     margin-top: 50px;
     margin-bottom: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
     font-size: 18px;
     font-family: $fuente-secundaria ;
    
